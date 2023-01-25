@@ -171,6 +171,10 @@ ol{
 
 /* Media Query */
 @media screen and (max-width: 750px) {
+    .wrapper{
+        width: 100%;
+        overflow-x: hidden;
+    }
     nav{
         flex-direction: column;
         height: 300px;
